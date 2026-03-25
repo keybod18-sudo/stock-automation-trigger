@@ -3,7 +3,7 @@ name: dispatch-stock-automation
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * 1-5"
+    - cron: "7,22,37,52 * * * 1-5"
 
 jobs:
   dispatch:
